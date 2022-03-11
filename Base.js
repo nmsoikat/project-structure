@@ -9,6 +9,7 @@ class Base{
 
   update(obj, id){
     console.log("Collection:",obj.collection,"ID: ",id, "\n update", obj.fieldSet);
+    // console.log("Collection:",obj.collection,"ID: ",obj.docId, "\n update", obj.fieldSet);
   }
 }
 

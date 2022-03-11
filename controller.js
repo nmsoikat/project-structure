@@ -21,8 +21,9 @@ const user = new User;
 // update
 // (req, res, next) => {
   const id = "02" // req.params.id
-  user.fieldSet = {name: "korim", email: "korim@gmail.com", age: 20}; // req.body
-  factory.update(user, id)
   // or we can set id as a user properties
   user.docId = 02;
+  
+  user.fieldSet = {name: "korim", email: "korim@gmail.com", age: 20}; // req.body
+  factory.update(user, id)
 //}
