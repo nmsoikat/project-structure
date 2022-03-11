@@ -10,8 +10,8 @@ const get = function(obj){
   base.get(obj)
 }
 
-const update = function(obj){
-  base.update(obj)
+const update = function(obj, id){
+  base.update(obj, id)
 }
 
 module.exports = {set, get, update}

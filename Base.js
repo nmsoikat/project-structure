@@ -7,8 +7,8 @@ class Base{
     console.log("get data according to ",obj.collection, "collection");
   }
 
-  update(obj){
-    console.log("Collection:",obj.collection, "\n update", obj.fieldSet);
+  update(obj, id){
+    console.log("Collection:",obj.collection,"ID: ",id, "\n update", obj.fieldSet);
   }
 }
 

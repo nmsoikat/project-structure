@@ -16,6 +16,13 @@ class User{
     return this.document;
   }
 
+  //optional way
+  set docId(id){
+    this._id = id;
+  }
+  get docId(){
+    return this._id;
+  }
 }
 
 module.exports = {User};
